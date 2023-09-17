@@ -7,7 +7,7 @@ const btn=document.querySelector('#btn');
 // btn.onclick=()=>{
 //     alert('Click 3')
 // }
-// 2- usul  click
+// 2- usul  click  Hozirda eng kop qollaniladigan usul
 btn.addEventListener('click',()=>{
     alert('Click3')
 })
