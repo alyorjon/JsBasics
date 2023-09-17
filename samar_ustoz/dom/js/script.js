@@ -50,8 +50,10 @@ const but=document.createElement('button')
 but.style.background='red'
 const myCircle=document.createElement ('div')
 myCircle.classList.add('circle');
-// circle_wrapper.append(myCircle);
+circle_wrapper.append(myCircle);
 // circle_wrapper.before(myCircle);
 // circle_wrapper.after(myCircle);
 // class_new[1].remove()
-class_new[1].replaceWith(myCircle)
+// class_new[1].replaceWith(myCircle)
+
+myCircle.innerHTML='<h1>5</h>';
