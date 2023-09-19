@@ -1,0 +1,11 @@
+Async sorovlar
+
+
+setTimeout(()=>{
+    console.log('set time out')
+},1000)
+
+setTimeout(func , seconds)
+
+
+clearInterval(const) orqali ochirib tashemiz.

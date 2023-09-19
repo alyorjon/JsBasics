@@ -1,1 +1,14 @@
 Delegatsiya
+yangi hodisa qoshishda ishlatiladi.
+
+
+document.querySelector( ) orqali htmldagi class yoki id olishda ishlatamiz
+
+addEventListener orqali osha classga mouseni actionni qoshamiz
+
+ona divdan child divga tasir otkazish   contains() methodi orqali
+
+forEach()methodi orqali arrayni har bir elementiga ozgarish kirtamiz
+
+ona divga hodisa berib uni ishlatish hisoblanadi
+forEach((item))

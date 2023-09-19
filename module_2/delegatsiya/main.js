@@ -7,7 +7,7 @@ wrapper.addEventListener('click',(e)=>{
     console.dir(e.target)
 })
 
-btns.forEach(item=>{
+btns.forEach((item)=>{
     item.addEventListener('click',()=>{
         console.log('clicked')
     })
