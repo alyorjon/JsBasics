@@ -16,8 +16,19 @@ btn.addEventListener('click',()=>{
     },1000);
     // clearInterval(chat);
 });
+const myAnimation=()=>{
+    const car = document.querySelector('#car');
+    let pos=0;
+    const termid=setInterval(()=>{
+        if (pos ===700){
+            clearInterval(termid);
+        }else{
+            pos++;
+            car.style.left =pos+'px';
+        }
+    },10)
+    
+}
 
-// const chat=setTimeout(()=>{
-//     console.log('set time out')
-// },1000)
 
+btn.addEventListener('click',myAnimation);

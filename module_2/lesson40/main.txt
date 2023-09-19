@@ -1,0 +1,5 @@
+Date
+
+get & set
+get olamiz
+set ornatamiz
