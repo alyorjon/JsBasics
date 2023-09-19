@@ -1,0 +1,6 @@
+
+1. defer => ks codeni html toliq yuklab olganidan song ishlashini taminlaydio va kutadi
+2. async qaysi script kam bolsa shu tezroq ochadi. script tez ishlashini tamilaydi.
+3. 
+
+
