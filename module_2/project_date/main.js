@@ -1,19 +1,27 @@
 'use strict';
 
-const deadline=new Date('2023-09-22');
+const deadline=new Date('2021-09-22');
 
 
 
 
 const getTimeRemaining=(endtime)=>{
-    
+    let days,hours,min,sec,secon
     const timer=Date.parse(endtime)-Date.parse(new Date());
+    if (timer<0){
+        days=0
+        hours=0
+        min=0
+        sec=0
+        secon=0
+    }else{
+        days=Math.floor(timer/(1000*60*60*24));
+        hours=Math.floor((timer/(1000*60*60))%24);
+        min=Math.floor((timer/(1000*60))%60);
+        sec=Math.floor((timer/(1000))%60);
+        secon=getzero(sec)
+    }
     
-    let days=Math.floor(timer/(1000*60*60*24));
-    let hours=Math.floor((timer/(1000*60*60))%24);
-    let min=Math.floor((timer/(1000*60))%60);
-    let sec=Math.floor((timer/(1000))%60);
-    let secon=getzero(sec)
     return {days,hours,min,secon}
 
 }
@@ -41,9 +49,9 @@ const setclock=(endtime)=>{
         minute.innerHTML=getzero(t.min);
         second.innerHTML=getzero(t.secon);
         if (t.timer <=0){
-            clearInterval(timeinterva)
+            clearInterval(timeinterva);
         }
-    };
+    }
 }
 getTimeRemaining(deadline)
 setclock(deadline)
