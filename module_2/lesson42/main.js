@@ -27,3 +27,9 @@ btn.addEventListener('click',()=>{
 
     
 })
+
+
+
+const style = window.getComputedStyle(box)
+style.boxShadow=300+'px';
+console.log()

@@ -1,0 +1,7 @@
+
+
+
+
+closue
+
+bu local search agar bolmasa global ozgaruvchini izlaydi
