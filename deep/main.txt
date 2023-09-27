@@ -1,0 +1,6 @@
+Server 
+get method
+get malumot olish
+post malumot yuborish
+delete
+edit
